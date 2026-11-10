@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background: #e8f0f7 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Ccircle cx='10' cy='10' r='1' fill='%23c5d6e6'/%3E%3C/svg%3E");
+}
+header {
+  background: linear-gradient(#5b9bd5, #2a6ea8);
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  border-bottom: 3px solid #1d5585;
+  text-shadow: 1px 1px 2px #1d5585;
+}
+header h1 { margin: 0; font-size: 30px; }
+header p { margin: 5px 0 0; font-style: italic; }
+main {
+  max-width: 720px;
+  margin: 25px auto;
+  padding: 0 15px;
+}
+h2 {
+  color: #2a6ea8;
+  border-bottom: 2px dotted #2a6ea8;
+  padding-bottom: 4px;
+  font-size: 20px;
+}
+.box {
+  background: #fff;
+  border: 1px solid #b7cde0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  padding: 15px 20px;
+  margin-bottom: 15px;
+}
+.question p { margin: 0 0 10px; }
+label {
+  display: block;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+label:hover { background: #eaf3fb; }
+input[type="text"] {
+  border: 1px solid #9bb8d3;
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-family: inherit;
+}
+input.name { width: 260px; }
+input.date { width: 120px; }
+.passage { background: #fffbea; border-color: #e6d28a; }
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  padding: 20px;
+  border-top: 1px solid #b7cde0;
+  background: #d6e5f2;
+}
